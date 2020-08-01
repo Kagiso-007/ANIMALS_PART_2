@@ -12,17 +12,17 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-exports.__esModule = true;
-exports.Cat = void 0;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Dog = void 0;
 var Animal_1 = require("../Animal/Animal");
-var Cat = /** @class */ (function (_super) {
-    __extends(Cat, _super);
-    function Cat() {
+var Dog = /** @class */ (function (_super) {
+    __extends(Dog, _super);
+    function Dog() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Cat.prototype.sound = function () {
-        return "Meoow";
+    Dog.prototype.sound = function () {
+        return "Bark!!";
     };
-    return Cat;
+    return Dog;
 }(Animal_1.Animal));
-exports.Cat = Cat;
+exports.Dog = Dog;
